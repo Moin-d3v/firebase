@@ -10,7 +10,6 @@ import (
 )
 
 var (
-	repo repository.PostRepository = repository.NewPostRepository()
 )
 
 func getPosts(response http.ResponseWriter, request *http.Request) {
